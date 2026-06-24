@@ -11,7 +11,7 @@ public class Carro extends Veiculo{
     @Override
     public void exibirDetalhes(){
         System.out.println("=== Carro ===");
-        super.exibirDetalhes(); // aproveita o método do pai
+        super.exibirDetalhes();
         System.out.println("Portas: " + numeroPortas);
         System.out.println("Combustível: " + tipoCombustivel);
     }
